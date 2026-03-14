@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Whimsitales Studios</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+<!-- Navigation with hamburger menu -->
+<nav>
+  <button class="hamburger" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">Story</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <section class="contact-section">
+    <h1>Stay Connected</h1>
+    <p class="intro">Want to follow development updates or share feedback? We'd love to hear from you.</p>
+
+    <!-- Success Message (hidden by default, shown after valid submission) -->
+    <div class="success-message" style="display: none;"></div>
+
+    <!-- Form with validation - JavaScript handles validation and error messages -->
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <!-- Error message container for name field -->
+        <span class="error-message" id="name-error"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <!-- Error message container for email field -->
+        <span class="error-message" id="email-error"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <!-- Error message container for message field -->
+        <span class="error-message" id="message-error"></span>
+      </div>
+
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to development updates and launch announcements</label>
+      </div>
+
+      <button type="submit" class="glow">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<footer>
+  <p>&copy; 2026 Whimsitales Studios. All rights reserved.</p>
+</footer>
+
+<script src="contact.js"></script>
+
+</body>
+</html>
