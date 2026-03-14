@@ -60,49 +60,49 @@ const gameFeatures = [
   {
     name: "Branching Narrative",
     category: "story",
-    icon: "🌿",
+    icon: "✉︎",
     description: "Your choices shape the story across multiple paths and endings"
   },
   {
     name: "Hand-Painted Art",
     category: "visuals",
-    icon: "🎨",
+    icon: "⋆˚꩜｡",
     description: "Every scene lovingly crafted with detailed backgrounds and characters"
   },
   {
     name: "Original Soundtrack",
     category: "audio",
-    icon: "🎵",
+    icon: "♬⋆.˚",
     description: "Emotional, atmospheric music that enhances every moment"
   },
   {
     name: "Character Development",
     category: "story",
-    icon: "💭",
+    icon: "⋆˚✿˖°",
     description: "Deep, nuanced characters who grow and change based on your interactions"
   },
   {
     name: "Multiple Endings",
     category: "story",
-    icon: "🌅",
+    icon: "⋆˚꩜｡",
     description: "Over 5 distinct endings based on the relationships you build"
   },
   {
     name: "Voice Acting",
     category: "audio",
-    icon: "🎙️",
+    icon: "‧₊˚♪",
     description: "Full voice acting from talented indie voice actors"
   },
   {
     name: "Atmospheric Effects",
     category: "visuals",
-    icon: "✨",
+    icon: "ʚĭɞೃ",
     description: "Dynamic lighting and particle effects bring scenes to life"
   },
   {
     name: "Memory System",
     category: "gameplay",
-    icon: "🧠",
+    icon: "-`♡´-",
     description: "Track which memories you've saved and which have faded away"
   }
 ];
