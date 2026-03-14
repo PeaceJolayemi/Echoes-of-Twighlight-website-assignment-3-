@@ -201,7 +201,7 @@ async function fetchDailyQuote() {
     quoteContainer.innerHTML = `
       <div class="quote-content">
         <p class="quote-fallback">
-          ✎ᝰ. "Every story begins with a single choice." — Whimsitales Studios
+          ✎ᝰ. "Every story begins with a single choice." - Whimsitales Studios
         </p>
       </div>
     `;
