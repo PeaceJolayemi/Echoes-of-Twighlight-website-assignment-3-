@@ -288,7 +288,7 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 
 ## Submission Links
 
-**GitHub Repository:** [Link to be added]  
+**GitHub Repository:** [https://github.com/PeaceJolayemi/Echoes-of-Twighlight-website-assignment-3-]  
 **Live Site (GitHub Pages):** [https://peacejolayemi.github.io/Echoes-of-Twighlight-website-assignment-3-/]
 
 ---
