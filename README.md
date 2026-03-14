@@ -1,7 +1,7 @@
 # Echoes of Twilight Website - Assignment 3
 
 **Name:** Peace Jolayemi  
-**Student Number:** XXXXXXXX  
+**Student Number:** 101378520 
 **Course:** IMD1005 - Web Development  
 **Assignment:** 03 - Adding Interactivity with JavaScript  
 
@@ -17,7 +17,7 @@ The site continues to focus on building trust with skeptical casual gamers throu
 
 ## 7 Interactive Features - Checklist
 
-### ✅ Feature 1: Responsive Navigation with Hamburger Menu
+### Feature 1: Responsive Navigation with Hamburger Menu
 
 **What I Built:**
 - Desktop: Full navigation visible
@@ -35,7 +35,7 @@ The site continues to focus on building trust with skeptical casual gamers throu
 
 ---
 
-### ✅ Feature 2: Form Validation with Error Messages
+### Feature 2: Form Validation with Error Messages
 
 **What I Built:**
 - Validates 3 fields: name (min 2 characters), email (proper format), message (min 10 characters)
@@ -53,7 +53,7 @@ The site continues to focus on building trust with skeptical casual gamers throu
 
 ---
 
-### ✅ Feature 3: Back to Top Button
+### Feature 3: Back to Top Button
 
 **What I Built:**
 - Button is hidden when page loads
@@ -71,7 +71,7 @@ The site continues to focus on building trust with skeptical casual gamers throu
 
 ---
 
-### ✅ Feature 4: Dynamic Content Rendering from Data
+### Feature 4: Dynamic Content Rendering from Data
 
 **What I Built:**
 - Created array of 8 game features (exceeds minimum of 6)
@@ -86,7 +86,7 @@ const gameFeatures = [
   {
     name: "Branching Narrative",
     category: "story",
-    icon: "🌿",
+    icon: " ",
     description: "Your choices shape the story across multiple paths and endings"
   },
   // ... 7 more features
@@ -102,7 +102,7 @@ const gameFeatures = [
 
 ---
 
-### ✅ Feature 5: Tabbed Content Section
+###  Feature 5: Tabbed Content Section
 
 **What I Built:**
 - 3 tabs on the About page: "Story", "Features", "Team"
@@ -120,7 +120,7 @@ const gameFeatures = [
 
 ---
 
-### ✅ Feature 6: Live Filtering
+### Feature 6: Live Filtering
 
 **What I Built:**
 - Filter buttons for categories: "All Features", "Story", "Visuals", "Audio", "Gameplay"
@@ -138,7 +138,7 @@ const gameFeatures = [
 
 ---
 
-### ✅ Feature 7: Fetch and Display Data from Public API
+### Feature 7: Fetch and Display Data from Public API
 
 **What I Built:**
 - Uses Quotable API (no auth required) for inspirational quotes
@@ -190,17 +190,17 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 
 ## Technical Requirements Met
 
-- ✅ **External JS:** All JavaScript in separate `.js` files (no inline `onclick`)
-- ✅ **Functions:** Code organized into clear, reusable functions
-- ✅ **No console errors:** Cleaned up all `console.log` statements
-- ✅ **Consistent code style:** Meaningful names, consistent indentation, helpful comments
+-  **External JS:** All JavaScript in separate `.js` files (no inline `onclick`)
+-  **Functions:** Code organized into clear, reusable functions
+-  **No console errors:** Cleaned up all `console.log` statements
+-  **Consistent code style:** Meaningful names, consistent indentation, helpful comments
 
 ---
 
 ## AI Usage Documentation
 
 ### Tools Used:
-- **ChatGPT** - Used for learning concepts and debugging
+- **ChatGPT** - Used for learning some concepts (youtube for other) and debugging and writing read me.
 
 ### What AI Helped With:
 
@@ -231,7 +231,7 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 - **All JavaScript logic and functions** (100%)
 - **Data structures** (gameFeatures array, weather mood mapping)
 - **Feature integration** (how all 7 features work together)
-- **Creative decisions** (weather as "mood", feature categories, tab content)
+- **Creative decisions** (feature categories, tab content)
 
 **Percentage Breakdown:** ~85% my own code, ~15% concepts explained by AI
 
@@ -242,7 +242,7 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 ```
 ├── index.html          # Home page with dynamic features and weather
 ├── index.css           # Styles for home page
-├── index.js            # JS for hamburger, back-to-top, dynamic content, filtering, weather API
+├── index.js            # JS for hamburger, back-to-top, dynamic content, filtering.
 ├── about.html          # About page with tabbed content
 ├── about.css           # Styles for about page
 ├── about.js            # JS for hamburger, back-to-top, tabs
@@ -259,7 +259,7 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 **Browsers Tested:**
 - Chrome (latest)
 - Firefox (latest)
-- Safari (latest)
+- Opera (latest)
 
 **Devices Tested:**
 - Desktop (1920x1080)
@@ -267,19 +267,18 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 - Mobile (iPhone, 375px)
 
 **Features Verified:**
-- ✅ Hamburger menu works on mobile
-- ✅ Back to top button appears/disappears correctly
-- ✅ Form validation shows/hides errors properly
-- ✅ Dynamic content renders on page load
-- ✅ Filtering updates the grid correctly
-- ✅ Tabs switch smoothly
-- ✅ Weather API loads (with graceful error handling if it fails)
+- Hamburger menu works on mobile
+-  Back to top button appears/disappears correctly
+-  Form validation shows/hides errors properly
+-  Dynamic content renders on page load
+-  Filtering updates the grid correctly
+-  Tabs switch smoothly
+-  Weather API loads (with graceful error handling if it fails)
 
 ---
 
 ## Known Issues / Future Improvements
 
-1. **Weather API** - Sometimes slow to load (3-5 seconds). Could add a timeout.
 2. **Filter animation** - Could add fade-in effect when features are filtered
 3. **Mobile navigation** - Could add swipe gesture to close menu
 4. **Form** - Could add more fields (phone number, dropdown for inquiry type)
@@ -290,7 +289,7 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 ## Submission Links
 
 **GitHub Repository:** [Link to be added]  
-**Live Site (GitHub Pages):** [Link to be added]
+**Live Site (GitHub Pages):** [https://peacejolayemi.github.io/Echoes-of-Twighlight-website-assignment-3-/]
 
 ---
 
@@ -298,13 +297,12 @@ Based on feedback that visual design was lacking (15/20 points), I made signific
 
 Assignment 3 was challenging but rewarding. The hardest parts were:
 
-1. **Understanding async/await** - The weather API feature took the longest because I had to learn how promises work
+1. **Understanding async/await** - The weather API feature took the longest because I had to learn how promises work (Had to cut it out)
 2. **Coordinating features** - Making sure the dynamic rendering (Feature 4) and filtering (Feature 6) worked together required careful planning
 3. **Mobile responsiveness** - The hamburger menu took several iterations to get right
 
 What I'm most proud of:
-- The creative weather integration ("Today's Mood")
 - How all 7 features work together cohesively
 - The improvement in visual design from Assignment 2
 
-This assignment taught me that JavaScript isn't just about making things move - it's about creating better user experiences through thoughtful interactivity.
+This assignment taught me that JavaScript isn't just about making things move, it's about creating better user experiences through thoughtful interactivity.
